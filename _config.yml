@@ -1,0 +1,32 @@
+title: Your awesome title
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+ Aqui en https://cerrajeros.barcelona/ tenemos los mejores cerrajeros de barcelona y contamos con muy buenos servicios para ti
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://keralahost.in/jorgegomez" # the base hostname & protocol for your site
+google_adsense: Your-adsense-code
+
+markdown: kramdown
+
+name: Your awesome title
+
+date: 2019-03-13 20:35:07 +0000
+permalink: /:year/:month/:day/:title
+
+logo: false
+sass:
+    load_paths:
+        - _sass
+        - bs
+paginate: 10
+adsid: ca-pub-8582082279264878
+domain_name: http://keralahost.in/jorgegomez/
+google_analytics: UA-31XXXXXX-X
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+cover: 
+author_image: 
+# Details for the RSS feed generator
+author:        jorgegomez
